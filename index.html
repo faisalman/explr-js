@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Explr.js</title>
+        <link rel="stylesheet" type="text/css" href="css/jquery-explr-1.4.css" />
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"></script>
+	    <script type="text/javascript" src="js/jquery-explr-1.4.js"></script>
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+		        $("#tree").explr();
+	        });
+	    </script>
+    </head>
+    <body>
+        <ul id="tree">
+		    <li class="icon-home">
+		        <a href="#">home</a>
+		    </li>
+		    <li class="icon-user">
+		        <a href="#">about</a>
+		    </li>
+			<li class="icon-card2">
+			    <a href="#">portfolio</a>
+			    <ul>
+				<li class="icon-text">
+				    <a href="https://github.com/faisalman" target="_blank">github</a>
+
+				</li>
+				<li class="icon-text">
+				    <a href="https://faisalman.com">blog</a>
+				</li>
+			    </ul>
+			</li>
+			<li class="icon-mail">
+			    <a href="mailto:f@faisalman.com">contact</a>
+			</li>
+        </ul>
+    </body>
+</html>
