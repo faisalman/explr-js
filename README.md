@@ -15,7 +15,7 @@ Explorer-like tree jQuery plugin
 <script type="text/javascript" src="jquery.explr-1.1.min.js"></script>
 
 <ul class="explr">
-    <li>
+    <li class="icon-home">
     <a href="#">1st item 1st level</a>
     <ul>
         <li>
@@ -98,24 +98,31 @@ $('.tree-wrapper').explr({
 
 ### Icons
 
-| ![](css/img/pc.de/address.png) icon-address | ![](css/img/pc.de/address.png) icon-archives | ![](css/img/pc.de/bestseller.png) icon-badge | ![](css/img/pc.de/address.png) icon-bank | ![](css/img/pc.de/address.png) icon-basket | ![](css/img/pc.de/order.png) icon-board |
-| --- | --- | --- | --- | --- | --- |
-| icon-board2 | icon-book | icon-bookmark | icon-business | icon-calendar | icon-card |
-| icon-card2 | icon-chain | icon-chart | icon-lock | icon-check | icon-clock |
-| icon-comment | icon-config | icon-customers | icon-cv | icon-direction | icon-flag |
-| icon-folder | icon-folder2 | icon-folder3 | icon-hand | icon-heart | icon-help |
-| icon-home | icon-lamp | icon-left | icon-left2 | icon-mail | icon-mail2 |
-| icon-palette | icon-pencil | icon-pencil2 | icon-phone | icon-photo | icon-print |
-| icon-project | icon-refresh | icon-right | icon-right2 | icon-star | icon-tag |
-| icon-text | icon-text2 | icon-text3 | icon-text4 | icon-user | icon-world |
-| icon-zoom ||||||
+| ![](css/img/pc.de/address.png) `icon-address` | ![](css/img/pc.de/archives.png) `icon-archives` | ![](css/img/pc.de/bestseller.png) `icon-badge` | ![](css/img/pc.de/bank.png) `icon-bank` | ![](css/img/pc.de/basket.png) `icon-basket` |
+| --- | --- | --- | --- | --- |
+| ![](css/img/pc.de/order.png) `icon-board` | ![](css/img/pc.de/order-1.png) `icon-board2` | ![](css/img/pc.de/library.png) `icon-book` | ![](css/img/pc.de/bookmark.png) `icon-bookmark` | ![](css/img/pc.de/business-contact.png) `icon-business` |
+| ![](css/img/pc.de/calendar.png) `icon-calendar` | ![](css/img/pc.de/credit-card.png) `icon-card` | ![](css/img/pc.de/my-account.png) `icon-card2` | ![](css/img/pc.de/link.png) `icon-chain` | ![](css/img/pc.de/statistics.png) `icon-chart` |
+| ![](css/img/pc.de/lock.png) `icon-lock` | ![](css/img/pc.de/check.png) `icon-check` | ![](css/img/pc.de/full-time.png) `icon-clock` | ![](css/img/pc.de/comment.png) `icon-comment` | ![](css/img/pc.de/config.png) `icon-config` |
+| ![](css/img/pc.de/customers.png) `icon-customers` | ![](css/img/pc.de/cv.png) `icon-cv` | ![](css/img/pc.de/milestone.png) `icon-direction` | ![](css/img/pc.de/flag.png) `icon-flag` | ![](css/img/pc.de/folder.png) `icon-folder` |
+| ![](css/img/pc.de/finished-work.png) `icon-folder2` | ![](css/img/pc.de/upcoming-work.png) `icon-folder3` | ![](css/img/pc.de/freelance.png) `icon-hand` | ![](css/img/pc.de/heart.png) `icon-heart` | ![](css/img/pc.de/consulting.png) `icon-help` |
+| ![](css/img/pc.de/home.png) `icon-home` | ![](css/img/pc.de/lightbulb.png) `icon-lamp` | ![](css/img/pc.de/sign-out.png) `icon-left` | ![](css/img/pc.de/login.png) `icon-left2` | ![](css/img/pc.de/contact.png) `icon-mail` |
+| ![](css/img/pc.de/email.png) `icon-mail2` | ![](css/img/pc.de/drawings.png) `icon-palette` | ![](css/img/pc.de/edit.png) `icon-pencil` | ![](css/img/pc.de/pencil.png) `icon-pencil2` | ![](css/img/pc.de/phone.png) `icon-phone` |
+| ![](css/img/pc.de/photography.png) `icon-photo` | ![](css/img/pc.de/print.png) `icon-print` | ![](css/img/pc.de/project.png) `icon-project` | ![](css/img/pc.de/refresh.png) `icon-refresh` | ![](css/img/pc.de/sign-in.png) `icon-right` |
+| ![](css/img/pc.de/logout.png) `icon-right2` | ![](css/img/pc.de/star.png) `icon-star` | ![](css/img/pc.de/tag.png) `icon-tag` | ![](css/img/pc.de/attibutes.png) `icon-text` | ![](css/img/pc.de/issue.png) `icon-text2` |
+| ![](css/img/pc.de/future-projects.png) `icon-text3` | ![](css/img/pc.de/old-versions.png) `icon-text4` | ![](css/img/pc.de/user.png) `icon-user` | ![](css/img/pc.de/world.png) `icon-world` | ![](css/img/pc.de/zoom.png) `icon-zoom` |
 
-To define another custom icon class name you have to edit the CSS file, then add a CSS class preceded by `.explr-tree` like this:
+To define another custom icon class name you have to edit the CSS file
 
 ```css
 .explr-tree .icon-mycustomicon > li, .explr-tree li.icon-mycustomicon {
     background-image: url("img/mycustomicon.png");
 }
+```
+
+Then you can use it like this:
+
+```html
+<li class="icon-mycustomicon">
 ```
 
 ## Credits
