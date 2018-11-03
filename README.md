@@ -2,7 +2,7 @@
 
 Explorer-like tree jQuery plugin
 
-![explr-img](https://rawgit.com/faisalman/explr-js/master/Explr.png)
+![explr-img](https://cdn.jsdelivr.net/gh/faisalman/explr-js/Explr.png)
 
 * Author    : Faisal Salman <<f@faisalman.com>>
 * Demo      : https://faisalman.github.io/explr-js
